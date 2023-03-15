@@ -28,7 +28,7 @@ public class EveryoneGetsExp06 : MelonMod
     {
         public static void Postfix()
         {
-            // Give passive demons either 25% or 100% exp if they have Watchful
+            // Give passive demons either 75% or 100% exp if they have Watchful
             for (int i = 0; i < dds3GlobalWork.DDS3_GBWK.unitwork.Length; i++)
             {
                 if (dds3GlobalWork.DDS3_GBWK.unitwork[i].hp > 0)
