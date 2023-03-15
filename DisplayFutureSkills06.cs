@@ -36,7 +36,7 @@ public class EveryoneGetsExp06 : MelonMod
                     // If a demon didn't get any exp yet (i.e. if it's a passive demon without Watchful)
                     if (unitExpList[i] == dds3GlobalWork.DDS3_GBWK.unitwork[i].exp)
                     {
-                        datCalc.datAddExp(dds3GlobalWork.DDS3_GBWK.unitwork[i], (int)(nbResultProcess.AllExp * 0.25)); // Get 25% exp
+                        datCalc.datAddExp(dds3GlobalWork.DDS3_GBWK.unitwork[i], (int)(nbResultProcess.AllExp * 0.5)); // Get 25% exp
                     }
                     // If they didn't get 100% exp and have Watchful
                     else if (unitExpList[i] + nbResultProcess.AllExp != dds3GlobalWork.DDS3_GBWK.unitwork[i].exp && dds3GlobalWork.DDS3_GBWK.unitwork[i].skill.Contains(354))
