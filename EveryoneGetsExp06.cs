@@ -3,7 +3,7 @@ using HarmonyLib;
 using Il2Cpp;
 using everyone_gets_exp_06;
 
-[assembly: MelonInfo(typeof(EveryoneGetsExp06), "Everyone Gets Experience 25% (0.6 ver.)", "1.0.0", "Matthiew Purple")]
+[assembly: MelonInfo(typeof(EveryoneGetsExp06), "Everyone Gets Experience 100% (0.6 ver.)", "1.0.0", "Matthiew Purple")]
 [assembly: MelonGame("アトラス", "smt3hd")]
 
 namespace everyone_gets_exp_06;
