@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>everyone_gets_exp_06</RootNamespace>
+    <RootNamespace>everyone_gets_exp_50percent_06</RootNamespace>
+    <AssemblyName>everyone_gets_exp_50percent_06</AssemblyName>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
